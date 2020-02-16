@@ -75,9 +75,6 @@ body{
         height: 100%;
         overflow: scroll;
     }
-    .design__input{
-
-    }
     .contact__button{
         margin-bottom: 13px;
     }
@@ -227,16 +224,6 @@ body{
 }
 .features__line #all{
     color: #ff2d2d;
-}
-.image-1,.image-2{
-    display: flex;
-    margin: 23px;
-}
-.image-1 img,.image-2 img{
-    flex: 1;
-    margin: 13px;
-    width: 300px;
-    height: 300px;
 }
 .meet{
     position: relative;
@@ -406,12 +393,7 @@ padding: 15px 228px;
     right: -505px;
     bottom: -32px;
 }
-u{
-    color: #ff636f;
-}
-u.icon{
-    color: white;
-    margin-right: 15px;
-    font-size: 30px;
+.footer__social img{
+    margin-right: 10px;
 }
 

@@ -2,10 +2,12 @@
 <html>
 <head lang="ru">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="FancyBox/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="FancyBox/jquery.fancybox.min.css">
+    <script src="script.js"></script>
     <title>Документ</title>
 </head>
 <body>
@@ -59,16 +61,32 @@
         <a href="#">MOCK-UP</a>
     </div>
     <div class="image-1">
-        <div class="img-1"><img src="Картинки/daniel_021.jpg" alt="Картинка"></div>
-        <div class="img-2"><img src="Картинки/priroda_kartinki_foto_03.jpg" alt="Картинка 2"></div>
-        <div class="img-3"><img src="Картинки/priroda_kartinki_foto_04.jpg" alt="Картинка 3"></div>
-        <div class="img-4"><img src="Картинки/7407.jpg" alt="Картинка 4"></div>
+        <a data-fancybox="gallery" data-caption="Картинка" href="Картинки/daniel_021.jpg" width="600" height="600">
+            <img src="Картинки/daniel_021.jpg" width="300" height="300" alt="Картинка">
+        </a>
+        <a data-fancybox="gallery" data-caption="Картинка 2" href="Картинки/priroda_kartinki_foto_03.jpg" width="600" height="600">
+            <img src="Картинки/priroda_kartinki_foto_03.jpg" width="300" height="300" alt="Картинка2">
+        </a>
+        <a data-fancybox="gallery" data-caption="Картинка 3" href="Картинки/priroda_kartinki_foto_04.jpg" width="600" height="600">
+            <img src="Картинки/priroda_kartinki_foto_04.jpg" width="300" height="300" alt="Картинка3">
+        </a>
+        <a data-fancybox="gallery" data-caption="Картинка 3" href="Картинки/7407.jpg" width="600" height="600">
+            <img src="Картинки/7407.jpg" width="300" height="300" alt="Картинка3">
+        </a>
     </div>
-    <div class="image-2">
-        <div class="img-1"><img src="Картинки/1547365386_2.jpg" alt="Картинка 5"></div>
-        <div class="img-2"><img src="Картинки/1547365376_1.jpg" alt="Картинка 6"></div>
-        <div class="img-3"><img src="Картинки/Сочинение-на-тему-Природа-900x500.jpeg" alt="Картинка 7"></div>
-        <div class="img-4"><img src="Картинки/Без%20названия%20(1).jpg" alt="Картинка 8"></div>
+    <div class="image-1">
+        <a data-fancybox="gallery" data-caption="Картинка" href="Картинки/1547365386_2.jpg" width="600" height="600">
+            <img src="Картинки/1547365386_2.jpg" width="300" height="300" alt="Картинка">
+        </a>
+        <a data-fancybox="gallery" data-caption="Картинка 2" href="Картинки/1547365376_1.jpg" width="600" height="600">
+            <img src="Картинки/1547365376_1.jpg" width="300" height="300" alt="Картинка2">
+        </a>
+        <a data-fancybox="gallery" data-caption="Картинка 3" href="Картинки/Сочинение-на-тему-Природа-900x500.jpeg" width="600" height="600">
+            <img src="Картинки/Сочинение-на-тему-Природа-900x500.jpeg" width="300" height="300" alt="Картинка3">
+        </a>
+        <a data-fancybox="gallery" data-caption="Картинка 3" href="Картинки/Без%20названия%20(1).jpg" width="600" height="600">
+            <img src="Картинки/Без%20названия%20(1).jpg" width="300" height="300" alt="Картинка3">
+        </a>
     </div>
 </div>
 <div class="meet">
@@ -128,10 +146,10 @@
 <footer class="footer">
     <h2>&copy;Copyright @junaed 2016, All right reserved</h2>
     <div class="footer__social">
-        <u class="icon fa fa-twitter-square"></u>
-        <u class="icon fa fa-instagram"></u>
-        <u class="icon fa fa-google-plus-circle"></u>
-        <u class="icon fa fa-facebook-square"></u>
+        <img src="Картинки/1468368398_Twitter_Rounded_Solid.png" alt="Twitter">
+        <img src="Картинки/1468368407_LinkedIn_Rounded_Solid.png" alt="LinkedIn">
+        <img src="Картинки/1468368412_Google_Rounded_Solid.png" alt="Google">
+        <img src="Картинки/1468368389_Facebook_Rounded_Solid.png" alt="Facebook">
     </div>
 </footer>
 </body>
