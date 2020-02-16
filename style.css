@@ -225,6 +225,16 @@ body{
 .features__line #all{
     color: #ff2d2d;
 }
+.image-1,.image-2{
+    display: flex;
+    margin: 23px;
+}
+.image-1 img,.image-2 img{
+    flex: 1;
+    margin: 13px;
+    width: 300px;
+    height: 300px;
+}
 .meet{
     position: relative;
     top: -583px;
